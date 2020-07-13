@@ -1,0 +1,31 @@
+{
+  "name": "stepfunctions-express-workflow",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "bin": {
+    "stepfunctions-express-workflow": "bin/stepfunctions-express-workflow.js"
+  },
+  "private": true,
+  "author": {
+    "name": "Amazon Web Services",
+    "url": "https://aws.amazon.com",
+    "organization": true
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/node": "^10.17.0",
+    "typescript": "~3.7.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-stepfunctions": "*",
+    "@aws-cdk/aws-lambda": "*",
+    "@aws-cdk/aws-lambda-event-sources": "*",
+    "@aws-cdk/aws-stepfunctions-tasks": "*",
+    "@aws-cdk/aws-logs": "*",
+    "@aws-cdk/core": "*"
+  }
+}
